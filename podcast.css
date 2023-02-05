@@ -1,0 +1,507 @@
+.header {
+    position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.2rem 9%;
+      background: rgb(4, 4, 4);
+      font-family: ProximaNovaCond, "Arial Narrow", sans-serif ;
+    }
+    .header .left-section{
+      display: flex;
+    }
+  
+    .header .left-section img{
+      height: 104px;
+      width: 145px;
+    }
+    
+    .header .logo i {
+      color: rgb(113, 15, 15);
+    }
+    
+    .header .navbar a {
+      font-size: 20px;
+      margin: 0 1rem;
+     color: white;
+     text-decoration: none;
+    }
+    
+    .header .navbar a:hover{
+      color: blueviolet;
+    }
+    
+    .header .icons div {
+     color: white;
+      font-size: 3rem;
+      margin-left: 0.3rem;
+      cursor: pointer;
+    }
+    
+    .header .icons div:hover {
+      color: blueviolet;
+    }
+    
+    #menu-btn {
+      display: none;
+    }
+
+    body{
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        background-color: black;
+    }
+    
+.title{
+    margin: 40px auto;
+    font-size: 50px;
+    font-weight: 900px;
+    color: white;
+    text-align: center;
+}
+
+.title:hover{
+    color: blueviolet;
+}
+
+main{
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 10.9%; 
+    font-family: ProximaNovaCond, "Arial Narrow", sans-serif ;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(images/podc.gif);
+    background-position: center;
+}  
+
+
+.h1{
+    font-size: 40px;
+    color: white;
+    line-height:50px;
+    justify-content: center; 
+    font-weight: bold;
+    font-family: ProximaNovaCond, "Arial Narrow", sans-serif !important;
+}
+
+p1{
+    font-size: 35px;
+    font-weight: lighter;
+    color: white;
+}
+
+p2{
+    margin-top: 9rem;
+    font-size: 35px;
+    font-weight: lighter;
+    color: white;
+}
+
+p3{
+    padding: 4rem 0 0 0;
+    display: block;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: lighter;
+    color: white;
+}
+
+.img-pod{
+    margin: 0 auto; 
+    display: block;
+    padding: 6px;
+    width: 50%;
+}
+
+.ft{
+    font-size: 50px;
+    color: aliceblue;
+    line-height: 150px;
+}
+
+.pod-title{
+    font-size: 80px;
+    color: burlywood;
+    display: block;
+}
+
+.pod-des{
+    padding: 4rem 0 0 0;
+    font-size: 25px;
+    color: aliceblue;
+    display: block;
+}
+
+.poster{
+    padding: 4rem;
+    margin: 0 auto;
+    display: block;
+    width: 40%;
+}
+
+.audio{
+padding:6px;
+margin: 0 auto; 
+display: block;
+} 
+
+/* The footer is at the bottom of the page */
+
+footer {
+    position: relative;
+    bottom: 0;
+}
+
+.footer-distributed {
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    width: 111%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 7725px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color: blueviolet;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 30%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: black;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: blueviolet ;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+    margin: 40px;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: blueviolet;
+}
+
+.footer-links a:hover {
+    color: blueviolet;
+}
+
+@media (max-width: 768px) {
+  /* Tablet Navbar Start  */
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    right: -110%;
+    width: 100%;
+    border-radius: 0.5rem;
+    background: rgb(17, 16, 16);
+    color: #fff;
+    text-align: center;
+  
+  }
+.left-section a{
+  display: none;
+}
+  .header .navbar.active {
+    right: 0;
+    transition: 0.3s linear;
+  }
+
+  .header .navbar a {
+    font-size: 2rem;
+    margin: 2rem 2.5rem;
+    display: block;
+  }
+
+  #menu-btn {
+    display: inline-block;
+  }
+  .header .icons div{
+      margin:0 1rem;
+    }
+  /* Tablet Navbar End  */
+
+  /* Tablet Footer Start  */
+  .footer-distributed {
+    background-color: #2d2a30;
+    width: 109%;
+    text-align: center;
+    font: bold 16px sans-serif;
+    margin-top: 5900px;
+}
+.footer-distributed .footer-left {
+    width: 100%;
+}
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 10px 0 12px;
+}
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer-distributed .footer-center {
+  font-size: 10px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 21rem;
+}
+.footer-distributed .footer-right {
+    width: 88%;
+    margin: 15px;
+}
+/* Tablet Footer End  */
+}
+
+/* Media Query For Mobile */
+@media (max-width:430px) {
+/* mobile body start */
+main{
+    margin: 54px 0;
+}
+.title{
+    font-size: 23px;
+}
+p1{
+    font-size:24px ;
+}
+p2{
+    font-size:24px ;
+}
+p3{
+    padding: 1rem 0 0 0 ;
+    font-size: 18px;
+}
+.ft {
+    font-size: 21px;
+    line-height: 60px;
+}
+.pod-title{
+    font-size: 46px;
+}
+.pod-des {
+    padding: 1rem 0 0 0;
+    font-size: 19px;
+}
+.poster {
+    padding: 1rem;
+    width: 60%;
+}
+.audio {
+    width: 150px;
+    padding: 16px;
+    height: 60px;
+}
+/* mobile body end */
+/*  mobile footer start */
+.footer-distributed {
+    background-color: #2d2a30;
+    width: 111%;
+    text-align: center;
+    font: bold 16px sans-serif;
+    margin-top: 3858px;
+}
+  .footer-distributed .footer-center {
+    width: 100%;
+    text-align: justify;
+    margin: 0 0rem;
+   display: none;
+}
+/*  mobile footer end */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and(max-width:425px){
+    .header,.body,.poster{
+        width: 100%;
+    }
+
+    .img-pod{
+        width: 80%;
+    }
+}
+
+@media screen and(max-width:768px) {
+    .header,.body,.poster{
+        width: 100%;
+    }
+
+    .img-pod{
+        width:80%;
+        margin: 20px;
+    }
+}

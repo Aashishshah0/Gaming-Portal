@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img src="images/logo.jpg" alt="">  
+        </div>
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="podcast.html">Podcast</a>
+        <a href="about.html">About Us</a>
+        </nav>
+        <div class="icons">
+          <div class="fa fa-bars" id="menu-btn"></div>
+          <a href="login.html"><div class="fa fa-user" id="user-btn"></div></a>
+        </div>
+    </header>
+<div class="about-section">
+    <div class="inner-container">
+        <h1>About Us</h1>
+        <p class="text">
+            What's a Gaming Portal? <br> Thank you for reading Gaming Portal, a news and
+            opinion
+            site about games and things serious gamers care about. We’re here to inform you and,
+            sometimes,
+            entertain you. We also often write about pop culture topics like anime, TV, and movies: if
+            it’s
+            good, interesting, or inspires us somehow, we want to tell you about it.
+            We aim to be an inclusive site for gamers of any ethnicity, gender or sexual orientation. We
+            expect our writers and commenters to treat those they write about as they would if they met
+            them
+            in person.
+        </p>
+    </div>
+</div>
+<script>
+    let navbar=document.querySelector('.navbar');
+    document.querySelector('#menu-btn').onclick=()=>{
+    navbar.classList.toggle('active');
+    }
+    </script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>

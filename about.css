@@ -1,0 +1,155 @@
+.header {
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem 9%;
+    background: rgb(4, 4, 4);
+    font-family: ProximaNovaCond, "Arial Narrow", sans-serif ;
+  }
+  .header .left-section{
+    display: flex;
+  }
+
+  .header .left-section img{
+    height: 104px;
+    width: 145px;
+  }
+  
+  .header .logo i {
+    color: rgb(113, 15, 15);
+  }
+  
+  .header .navbar a {
+    font-size: 20px;
+    margin: 0 1rem;
+   color: white;
+   text-decoration: none;
+  }
+  
+  .header .navbar a:hover{
+    color: blueviolet;
+  }
+  
+  .header .icons div {
+   color: white;
+    font-size: 3rem;
+    margin-left: 0.3rem;
+    cursor: pointer;
+  }
+  
+  .header .icons div:hover {
+    color: blueviolet;
+  }
+  
+  #menu-btn {
+    display: none;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.about-section{
+    background: url(images/about.gif) no-repeat left;
+    background-size: 65%;
+    background-color: black;
+    overflow: hidden;
+    padding: 200px 20px ;
+}
+.inner-container{
+    opacity: 0.8;
+    width: 55%;
+    float: right;
+    background-color: black;
+    padding: 150px;
+}
+.inner-container h1{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.about-section .text{
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+
+
+  @media (max-width: 1065px){
+    .header .navbar a{
+        font-size: 1.4rem;
+    }
+  }
+  @media (max-width: 991px){
+    .header {
+        padding: 1.4rem;
+      }
+  }
+  @media (max-width: 768px) {
+ /* Tablet Navbar Start  */
+ .header .navbar {
+  position: absolute;
+  top: 100%;
+  right: -110%;
+  width: 100%;
+  border-radius: 0.5rem;
+  background: rgb(17, 16, 16);
+  color: #fff;
+  text-align: center;
+
+}
+.left-section a{
+display: none;
+}
+.header .navbar.active {
+  right: 0;
+  transition: 0.3s linear;
+}
+
+.header .navbar a {
+  font-size: 2rem;
+  margin: 2rem 2.5rem;
+  display: block;
+}
+
+#menu-btn {
+  display: inline-block;
+}
+.header .icons div{
+    margin:0 1rem;
+  }
+/* Tablet Navbar End  */
+
+      .about-section{
+        background-size: 100%;
+        padding: 0 0 0 0;
+    }
+    .inner-container{
+        width: 100%;
+        padding: 45px;
+    }
+    .inner-container h1{
+        font-size: 25px;
+        align-items: center;
+    }
+}
+@media (max-width: 425px){
+
+}
